@@ -41,7 +41,7 @@ h3{
 }
 
 h4{
-    font-size: 18pt;
+    font-size: 16pt;
     color: #1773B0;
 }
 
@@ -96,6 +96,9 @@ p{
         color: #1773B0;
     }
 
+    .alleBilleder{
+        height: -webkit-fill-available;
+    }
 
         .answer p{
             font-size: 12pt;
@@ -253,7 +256,7 @@ p{
     justify-content: center;
     align-items: center;
     width: 23vw;
-    height: 9vh;
+    padding: 8%;
     background-color: #E8EEF6;
 }
 
@@ -335,7 +338,9 @@ p{
         }
 
             .coverbillede{
-                width: 26vw;
+                display: flex; 
+                width: 23vw;
+                flex-direction: column;
             }
 
             .forsidelinks{
