@@ -126,20 +126,20 @@ p{
     }
 
     .skyggeikolonne{
-        box-shadow: 3px 3px 15px -2px rgba(0, 0, 0, 0.426);
+        box-shadow: 3px 3px 15px -0.3px rgba(0, 0, 0, 0.426);
     }
 
     .titelbaggrund{
         background-color: #F5F5F5;
         width: 40vw;
         padding: 1% 0;
-        box-shadow: 3px 3px 15px -2px rgba(0, 0, 0, 0.426);
+        box-shadow: 3px 3px 15px -0.3px rgba(0, 0, 0, 0.426);
     }
 
     .teaserbg{
         background-color: white;
         padding: 2% 4%;
-        box-shadow: 7.5px 7.5px 20px 3px rgba(0, 0, 0, 0.426);
+        box-shadow: 7.5px 7.5px 20px 3px rgba(0, 0, 0, 0.201);
         height: auto;
         display: flex;
         flex-direction: column;
@@ -160,7 +160,7 @@ p{
 
 .forfattersektion img{
     border-radius: 50%;
-    box-shadow: 3px 3px 15px -2px rgba(0, 0, 0, 0.426);
+    box-shadow: 3px 3px 15px -0.3px rgba(0, 0, 0, 0.426);
 }
 
 .byline h4:first-child{
@@ -170,7 +170,7 @@ p{
     .langbg{
         background-color: white;
         padding: 3% 4%;
-        box-shadow: 7.5px 7.5px 20px 3px rgba(0, 0, 0, 0.426);
+        box-shadow: 7.5px 7.5px 20px 3px rgba(0, 0, 0, 0.201);
         height: 33vh;
         height: fit-content;
         display: flex;
