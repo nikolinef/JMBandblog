@@ -7,6 +7,10 @@
     font-family: "DM Sans", sans-serif;
 }
 
+
+/***************************generelle styles******************************/
+/***************************generelle styles******************************/
+/***************************generelle styles******************************/
 header{
     height: 13vh;
     display: flex;
@@ -23,7 +27,6 @@ main {
     background-color: #F1F3F9;
 }
 
-/*generelle styles*/
 h1{
     color: #1773B0;
     text-align: center;
@@ -59,100 +62,198 @@ p{
     font-size: 14pt;
 }
 
-    .bannerbillede {
-        height: 50vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 3%;
+.linkp{
+    color: #1773B0;
+    text-decoration: underline;
+}
 
-    }
+.linkp:hover{
+    font-weight: 700;
+}
 
-    .linkp{
-        color: #1773B0;
-        text-decoration: underline;
-    }
+.linkp a:visited{
+    color: #1773B0;
+}
 
-    .linkp:hover{
-        font-weight: 700;
-    }
+.inlinea{
+    color: #1773B0;
+    text-decoration: underline;
+    font-weight: 700;
+}
 
-    .linkp a:visited{
-        color: #1773B0;
-    }
+.inlinea:visited{
+    color: #1773B0;
+}
 
-    .linkpimidten{
-        text-align: center;
-    }
+.lillemellemrum{
+    width: 100%;
+    height: 3vh;
+    /*
+    background-color: rgb(255, 128, 0);*/
+}
 
-    .inlinea{
-        color: #1773B0;
-        text-decoration: underline;
-        font-weight: 700;
-    }
+.stormellemrum{
+    width: 100%;
+    height: 8vh;
+    /*
+    background-color: rgb(255, 128, 0);*/
+}
 
-    .inlinea:visited{
-        color: #1773B0;
-    }
+.skyggeikolonne{
+    box-shadow: 3px 3px 15px -0.3px rgba(0, 0, 0, 0.426);
+}
 
-    .alleBilleder{
-        height: -webkit-fill-available;
-    }
+.titelbaggrund{
+    background-color: #F5F5F5;
+    width: 40vw;
+    padding: 1% 0;
+    box-shadow: 3px 3px 15px -0.3px rgba(0, 0, 0, 0.426);
+}
 
-        .answer p{
-            font-size: 12pt;
-        }
+.ctaknap{
+    background-color: #1773B0;
+    color: white;
+    font-weight: 700;
+    font-size: 16pt;
+    width: 11vw;
+    padding: 1.5vh 0;
+    border-style: none;
+    box-shadow: 3px 3px 15px -2px rgba(0, 0, 0, 0.522);
+}
 
-        .uxwritting{
-            font-size: 12pt;
-            color: #1773B0;
-            font-style: italic;
-        }
+.ctaknap:hover{
+    box-shadow: 0.2px 0.2px 15px -2px rgba(0, 0, 0, 0.426);
+}
 
-        .fremhæve{
-            font-weight: 700;
-        }
+/*generelle styles*/
 
-    .lillemellemrum{
-        width: 100%;
-        height: 3vh;
-        /*
-        background-color: rgb(255, 128, 0);*/
-    }
+/****************************Styles til forsiden********************************/
+/****************************Styles til forsiden********************************/
+/****************************Styles til forsiden********************************/
 
-    .stormellemrum{
-        width: 100%;
-        height: 8vh;
-        /*
-        background-color: rgb(255, 128, 0);*/
-    }
+#forsidebanner{
+    background-image: url(images/forsidebanner.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
-    .skyggeikolonne{
-        box-shadow: 3px 3px 15px -0.3px rgba(0, 0, 0, 0.426);
-    }
+.bannerbillede {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3%;
+}
 
-    .titelbaggrund{
-        background-color: #F5F5F5;
-        width: 40vw;
-        padding: 1% 0;
-        box-shadow: 3px 3px 15px -0.3px rgba(0, 0, 0, 0.426);
-    }
+.bannerp{
+    text-align: center;
+    width: 45vw;
+}
 
-    .teaserbg{
-        background-color: white;
-        padding: 2% 4%;
-        box-shadow: 7.5px 7.5px 20px 3px rgba(0, 0, 0, 0.201);
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    }
+#søgefelt{
+    width: 45vw;
+    height: 7vh;
+    padding-left: 2%;
+    font-size: 14pt;
+    font-style: italic;
+    border-style: none;
+    background-color: white;
+}
 
-    .teaser{
-        width: 65%;
-        /*
-        background-color: rgb(159, 89, 173);*/
-    }
+.content{
+padding: 5% 9vw 5% 9vw;
+}
+
+#alleopslag{
+    display: grid;
+    grid: auto auto auto / 26vw 26vw 26vw;
+    gap: 2vw;
+    padding: 2% 0 4% 0;
+}
+
+.coverbillede{
+    display: flex; 
+    width: 23vw;
+    flex-direction: column;
+}
+
+#placeholdersatin{
+    width: 400px;
+    height: 260px;
+    background-image: url(images/Satin.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 15px -2px rgba(0, 0, 0, 0.426);
+    margin-bottom: 1vh;
+}
+
+#placeholderautomat{
+    width: 400px;
+    height: 260px;
+    background-image: url(images/termiske_armbaand.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 15px -2px rgba(0, 0, 0, 0.426);
+    margin-bottom: 1vh;
+}
+
+.forsidelinks{
+    text-decoration: none;
+}
+
+.forsidelinks:hover{
+    text-decoration: underline;
+    color: #1773B0;
+}
+
+.forsidelinks img{
+    box-shadow: 3px 3px 15px -2px rgba(0, 0, 0, 0.426);
+}
+
+#antalsider{
+    display: flex;
+    justify-content: center;
+    gap: 1.5%;
+}
+
+#antalsider h4{
+    font-weight: 400;
+}
+
+#valgtside{
+    border-bottom-style: solid;
+}
+/*Styles til forsiden*/
+
+/**********************Styles til Ordensbånd***********************/
+/**********************Styles til Ordensbånd***********************/
+/**********************Styles til Ordensbånd***********************/
+
+#ordensbanner{
+    background-image: url(images/ordensbåndbanner.webp);
+    background-repeat: no-repeat;
+    background-position: 0 -65vh;
+}
+
+.teaserbg{
+    background-color: white;
+    padding: 2% 4%;
+    box-shadow: 7.5px 7.5px 20px 3px rgba(0, 0, 0, 0.201);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.teaser{
+    width: 65%;
+    /*
+    background-color: rgb(159, 89, 173);*/
+}
+
+.fremhæve{
+    font-weight: 700;
+}
 
 .forfattersektion{
     display: flex;
@@ -160,64 +261,69 @@ p{
     gap: 1.5%;
     margin: 3.5% 12%;
 }
-
+    
 .forfattersektion img{
     border-radius: 50%;
     box-shadow: 3px 3px 15px -0.3px rgba(0, 0, 0, 0.426);
 }
-
+    
 .byline h4:first-child{
     text-decoration: underline;
 }
 
-    .langbg{
-        background-color: white;
-        padding: 3% 4%;
-        box-shadow: 7.5px 7.5px 20px 3px rgba(0, 0, 0, 0.201);
-        height: 33vh;
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-    }
+.langbg{
+    background-color: white;
+    padding: 3% 4%;
+    box-shadow: 7.5px 7.5px 20px 3px rgba(0, 0, 0, 0.201);
+    height: 33vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
 
-        .tokolonneriopslag{
-            display: flex;
-            justify-content: space-between;
-            
-        }
+.tokolonneriopslag{
+    display: flex;
+    justify-content: space-between;
+    
+}
 
-        .kolonne1{
-            /*background-color: rgb(255, 128, 0);*/
-            width: 44vw;
-        }
+.kolonne1{
+    /*background-color: rgb(255, 128, 0);*/
+    width: 44vw;
+}
 
-        .pogknap{
-            display: flex;
-            align-items: center;
-            gap: 5%;
-        }
+.kolonne2{
+    /*
+    background-color: rgb(34, 182, 21);*/
+    width: 26vw;
+}
 
-        .ctaknap{
-            background-color: #1773B0;
-            color: white;
-            font-weight: 700;
-            font-size: 16pt;
-            width: 11vw;
-            padding: 1.5vh 0;
-            border-style: none;
-            box-shadow: 3px 3px 15px -2px rgba(0, 0, 0, 0.522);
-        }
+#kongenogdronningen{
+    width: 100%;
+}
 
-        .ctaknap:hover{
-            box-shadow: 0.2px 0.2px 15px -2px rgba(0, 0, 0, 0.426);
-        }
+.kilde {
+    font-size: 12pt;
+    font-style: italic;
+}
 
+.kilde a{
+    color: #1773B0;
+}
 
-    .kolonne2{
-        /*
-        background-color: rgb(34, 182, 21);*/
-        width: 26vw;
-    }
+.kilde a:hover{
+    font-weight: 700;
+}
+
+.kilde a:visited{
+    color: #1773B0;
+}
+
+.pogknap{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
 
 .bestilbg{
     background-color: #D4D2D2;
@@ -239,6 +345,16 @@ p{
     padding: 3vh 1.5vw;
 }
 
+.answer p{
+    font-size: 12pt;
+}
+
+.uxwritting{
+    font-size: 12pt;
+    color: #1773B0;
+    font-style: italic;
+}
+
 .trekort{
     display: flex;
     justify-content: space-between;
@@ -258,6 +374,10 @@ p{
     width: 23vw;
     padding: 8%;
     background-color: #E8EEF6;
+}
+
+.linkpimidten{
+    text-align: center;
 }
 
 .kommentarsektion{
@@ -299,132 +419,6 @@ p{
     height: 15vh;
 }
 
-/*generelle styles*/
-
-/****************************Styles til forsiden********************************/
-/****************************Styles til forsiden********************************/
-/****************************Styles til forsiden********************************/
-    
-    #forsidebanner{
-        background-image: url(images/forsidebanner.webp);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-        .bannerp{
-            text-align: center;
-            width: 45vw;
-        }
-
-        #søgefelt{
-            width: 45vw;
-            height: 7vh;
-            padding-left: 2%;
-            font-size: 14pt;
-            font-style: italic;
-            border-style: none;
-            background-color: white;
-        }
-
-    .content{
-    padding: 5% 9vw 5% 9vw;
-    }
-
-        #alleopslag{
-            display: grid;
-            grid: auto auto auto / 26vw 26vw 26vw;
-            gap: 2vw;
-            padding: 2% 0 4% 0;
-        }
-
-            .coverbillede{
-                display: flex; 
-                width: 23vw;
-                flex-direction: column;
-            }
-
-            .forsidelinks{
-                text-decoration: none;
-            }
-
-            .forsidelinks:hover{
-                text-decoration: underline;
-                color: #1773B0;
-            }
-
-            .forsidelinks img{
-                box-shadow: 3px 3px 15px -2px rgba(0, 0, 0, 0.426);
-            }
-
-            #placeholdersatin{
-                width: 400px;
-                height: 260px;
-                background-image: url(images/Satin.webp);
-                background-repeat: no-repeat;
-                background-size: cover;
-                box-shadow: 3px 3px 15px -2px rgba(0, 0, 0, 0.426);
-                margin-bottom: 1vh;
-            }
-
-            #placeholderautomat{
-                width: 400px;
-                height: 260px;
-                background-image: url(images/termiske_armbaand.webp);
-                background-repeat: no-repeat;
-                background-size: cover;
-                box-shadow: 3px 3px 15px -2px rgba(0, 0, 0, 0.426);
-                margin-bottom: 1vh;
-            }
-
-    #antalsider{
-        display: flex;
-        justify-content: center;
-        gap: 1.5%;
-    }
-
-    #antalsider h4{
-        font-weight: 400;
-    }
-
-    #valgtside{
-        border-bottom-style: solid;
-    }
-/*Styles til forsiden*/
-
-/**********************Styles til Ordensbånd***********************/
-/**********************Styles til Ordensbånd***********************/
-/**********************Styles til Ordensbånd***********************/
-#ordensbanner{
-    background-image: url(images/ordensbåndbanner.webp);
-    background-repeat: no-repeat;
-    background-position: 0 -65vh;
-    
-}
-
-        #kongenogdronningen{
-            width: 100%;
-        }
-
-
-        .kilde {
-            font-size: 12pt;
-            font-style: italic;
-        }
-
-        .kilde a{
-            color: #1773B0;
-        }
-
-        .kilde a:hover{
-            font-weight: 700;
-        }
-
-        .kilde a:visited{
-            color: #1773B0;
-        }
-
-
-
 /************************Styles til madbilletter**********************/
 /************************Styles til madbilletter**********************/
 /************************Styles til madbilletter**********************/
@@ -443,17 +437,6 @@ p{
 #madbilletsplit {
     width: 100%;
 }
-
-/*
-.trekort .coverbillede img{
-    width: 92%;
-}
-
-.trekort .coverbillede h4{
-    width: 92%;
-}*/
-
-
 /*Styles til madbilletter*/
 
 
@@ -464,6 +447,11 @@ p{
     background-image: url(images/papirbanner.webp);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/*fordi der var nogle billeder, som ikke vil justeres efter containeren uden om*/
+.alleBilleder{
+    height: -webkit-fill-available;
 }
 
 
